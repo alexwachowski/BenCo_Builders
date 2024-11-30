@@ -1,12 +1,12 @@
 import Image from "next/image";
 import HouseGallery from "../components/HouseGallery";
-import NavBar from "../components/NavBar";
+
 import Footer from "../components/Footer";
 
 export default function Hero() {
   return (
   <div className="bg-grey-900">
-    {/* <NavBar /> */}
+   
     {/* Hero section */}
     <section className="relative w-screen h-screen flex items-center justify-center">
       {/* Background Image */}
