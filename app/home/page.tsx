@@ -5,10 +5,10 @@ import Footer from "../components/Footer";
 
 export default function Hero() {
   return (
-  <div className="bg-grey-900">
+  <div className="bg-grey-900 w-full m-0 p-0 overflow-x-hidden">
    
     {/* Hero section */}
-    <section className="relative w-screen h-screen flex items-center justify-center">
+    <section className="relative w-full h-screen flex items-center justify-center">
       {/* Background Image */}
       <div className="absolute top-0 left-0 w-full h-full">
         <Image
@@ -37,7 +37,7 @@ export default function Hero() {
     </section>
 
     {/* About Me */}
-    <section className="relative flex items-center justify-center w-full h-screen my-8">
+    <section className="relative flex items-center justify-center w-full min-h-full my-8">
       <div className="absolute top-0 left-0 w-full h-full">
         {/* Optional Background for the About Section */}
         <Image
@@ -48,7 +48,7 @@ export default function Hero() {
           className="opacity-50" // Dim the background for better readability
         />
       </div>
-      <div className="relative z-10 w-3/4 p-10 mx-10 bg-zinc-100 rounded-lg shadow-lg flex items-center space-x-6">
+      <div className="relative z-10 w-3/4 p-10 m-10 bg-zinc-100 rounded-lg shadow-lg flex flex-col lg:flex-row items-center space-x-6">
         {/* Circular Image */}
         <div className="w-42 h-42 rounded-full overflow-hidden mb-6 flex-none">
           <Image
@@ -61,15 +61,15 @@ export default function Hero() {
             className="rounded-full"
           />
         </div>
-      <div>
-        <h2 className="text-2xl font-bold text-gray-600 sm:text-3xl">Your Trusted Hometown Builder</h2>
-        <p className="mt-4 text-gray-600">
-        With roots in construction that run as deep as a solid foundation, Ben Co. Builders brings decades of hands-on experience and genuine commitment to every project. Born from a family legacy of craftsmanship and refined through years of diverse residential and commercial building experience, we don't just construct houses—we create homes where memories take root.
-        Proudly local to Wimberley, our approach combines time-honored building techniques with modern standards of excellence. Every home we build reflects our core promise: uncompromising quality, transparent processes, and a dedication to doing things right the first time.
-        When you choose Ben Co. Builders, you're not just hiring a contractor. You're partnering with a lifelong community member who understands that a home is more than just walls and a roof—it's the backdrop of your life's most cherished moments.
-        Quality. Integrity. Community. That's the Ben Co. promise.
-        </p>
-      </div>
+        <div>
+          <h2 className="text-2xl font-bold text-gray-600 sm:text-3xl">Your Trusted Hometown Builder</h2>
+          <p className="mt-4 text-gray-600">
+          With roots in construction that run as deep as a solid foundation, Ben Co. Builders brings decades of hands-on experience and genuine commitment to every project. Born from a family legacy of craftsmanship and refined through years of diverse residential and commercial building experience, we don't just construct houses—we create homes where memories take root.
+          Proudly local to Wimberley, our approach combines time-honored building techniques with modern standards of excellence. Every home we build reflects our core promise: uncompromising quality, transparent processes, and a dedication to doing things right the first time.
+          When you choose Ben Co. Builders, you're not just hiring a contractor. You're partnering with a lifelong community member who understands that a home is more than just walls and a roof—it's the backdrop of your life's most cherished moments.
+          Quality. Integrity. Community. That's the Ben Co. promise.
+          </p>
+        </div>
       </div>
     </section>
 

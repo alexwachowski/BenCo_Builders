@@ -46,7 +46,7 @@ export default function AboutPage() {
       </section>
 
       <section className="relative w-screen h-screen flex items-center justify-center">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 overflow-y-hidden">
                 <div>
                     <Image
                     src="/images/about-hero.jpg"
@@ -69,6 +69,15 @@ export default function AboutPage() {
                     <Image
                     src="/images/ben-scarlet.jpg"
                     alt="Image 3"
+                    width={600}
+                    height={400}
+                    className="rounded-lg shadow-lg"
+                    />
+                </div>
+                <div>
+                    <Image
+                    src="/images/ben-friends.jpg"
+                    alt="Image 4"
                     width={600}
                     height={400}
                     className="rounded-lg shadow-lg"
@@ -100,7 +109,7 @@ export default function AboutPage() {
       </section>
 
       <section className="relative w-screen h-screen flex items-center justify-center">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 overflow-y-hidden">
                 <div>
                     <Image
                     src="/images/construction-1.jpg"
@@ -128,6 +137,15 @@ export default function AboutPage() {
                     className="rounded-lg shadow-lg"
                     />
                 </div>
+                <div>
+                    <Image
+                    src="/images/construction-4.jpg"
+                    alt="Image 4"
+                    width={600}
+                    height={400}
+                    className="rounded-lg shadow-lg"
+                    />
+                </div>
             </div>
        </section> 
 
@@ -148,7 +166,7 @@ export default function AboutPage() {
         </section>
 
         <section className="relative w-screen h-screen flex items-center justify-center">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 overflow-y-hidden">
                 <div>
                     <Image
                     src="/images/home-1.jpg"
@@ -171,6 +189,15 @@ export default function AboutPage() {
                     <Image
                     src="/images/home-3.jpg"
                     alt="Image 3"
+                    width={600}
+                    height={400}
+                    className="rounded-lg shadow-lg"
+                    />
+                </div>
+                <div>
+                    <Image
+                    src="/images/home-4.jpg"
+                    alt="Image 4"
                     width={600}
                     height={400}
                     className="rounded-lg shadow-lg"

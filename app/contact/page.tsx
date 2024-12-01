@@ -1,4 +1,4 @@
-
+import Footer from "../components/Footer";
 
 export default function ContactPage(){
    return (
@@ -55,6 +55,9 @@ export default function ContactPage(){
             </button>
           </div>
         </form>
+      </section>
+      <section>
+        <Footer/>
       </section>
       </div>
    )
